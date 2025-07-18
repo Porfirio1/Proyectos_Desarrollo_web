@@ -1,0 +1,71 @@
+html{
+    font-size: 10px;
+    height: 100%;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    height: 100%;
+    overflow: hidden;
+}
+
+.layout{
+    width: 100%;
+    height: 100%;
+}
+
+.layout__main{
+    width: 100%;
+    min-height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__fondo{
+    content: "";
+    width: calc(100% + 4rem);
+    height: calc(100% + 4rem);
+    position: absolute;
+    z-index: -1;
+    filter: blur(15px);
+    background-image: url("../img/cuervi-fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.load__number{
+    font-size: 7rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    text-align: center;
+}
+
+.load__btn{
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.load__btn:hover{
+    background-color: #222222;
+}
+
+.load__completado{
+    display: none;
+    color: black;
+    font-weight: 600;
+    font-size: 3.5rem;
+    text-shadow: 0 0 10px #fff;
+}
