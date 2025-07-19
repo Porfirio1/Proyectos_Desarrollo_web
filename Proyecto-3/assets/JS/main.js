@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
 
     //Variables contadoras
     let porcentaje = 1;
-    let blur = 30;
+    let blur = 15;
 
     btn.addEventListener("click", (event) => {
 
@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
 
         let inter = setInterval(() => {
             porcentaje++;
-            blur-= 30/100; // Reducimos el blur en cada iteración
+            blur-= 15/100; // Reducimos el blur en cada iteración
 
             if(porcentaje > 100)
             {
