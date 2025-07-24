@@ -1,0 +1,102 @@
+body {
+    background-color: #8b8b8b;
+    color: #333;
+}
+
+.calculator {
+    width: 320px;
+    background-color: #080808;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.calculator-display {
+    font-size: 2em;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.button {
+    padding: 20px;
+    font-size: 1.2em;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ddd;
+}
+
+.operator {
+    background-color: #2df11bd5;
+    color: #000000;
+}
+
+.operator:hover {
+    background-color: #2dff03;
+}
+
+.fluorescent {
+    color: #000;
+    font-weight: bold;
+    animation: glow 1s infinite;
+    text-shadow: 0 0 3px #e5ff00, 0 0 5px #eeff00, 0 0 7px #e5ff00;
+}
+
+@keyframes glow {
+    0%, 100% {
+        text-shadow: 0 0 3px #e5ff00, 0 0 5px #e5ff00, 0 0 7px #e5ff00;
+    }
+    50% {
+        text-shadow: 0 0 5px #00ff00, 0 0 7px #00ff00, 0 0 9px #00ff00;
+    }
+}
+
+footer .social-icons a {
+    color: #ffffff;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.footer{
+    background-color: #080808;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.text__footer {
+    margin: auto;
+    padding: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+
+footer .social-icons a:hover {
+    color: #ffee00;
+}
+
+/* Estilos para el modal */
+.modal-content {
+    text-align: center;
+}
+
+.modal-body img {
+    width: 100px;
+}
