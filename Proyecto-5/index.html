@@ -15,26 +15,86 @@
         <div class="calculator mx-auto">
             <div id="display" class="calculator-display">0</div>
             <div class="calculator-buttons">
-                <button onclick="clearDisplay()" class="button">AC</button>
-                <button onclick="chooseOperation('^')" class="button operator">^</button>
-                <button onclick="chooseOperation('√')" class="button operator">√</button>
-                <button onclick="chooseOperation('%')" class="button operator">%</button>
-                <button onclick="chooseOperation('/')" class="button operator">/</button>
-                <button onclick="appendNumber(7)" class="button">7</button>
-                <button onclick="appendNumber(8)" class="button">8</button>
-                <button onclick="appendNumber(9)" class="button">9</button>
-                <button onclick="chooseOperation('*')" class="button operator">*</button>
-                <button onclick="appendNumber(4)" class="button">4</button>
-                <button onclick="appendNumber(5)" class="button">5</button>
-                <button onclick="appendNumber(6)" class="button">6</button>
-                <button onclick="chooseOperation('-')" class="button operator">-</button>
-                <button onclick="appendNumber(1)" class="button">1</button>
-                <button onclick="appendNumber(2)" class="button">2</button>
-                <button onclick="appendNumber(3)" class="button">3</button>
-                <button onclick="chooseOperation('+')" class="button operator">+</button>
-                <button onclick="appendNumber(0)" class="button">0</button>
-                <button onclick="appendNumber('.')" class="button">.</button>
-                <button onclick="compute()" class="button operator">=</button>
+                <!--Botón de limpieza-->
+                <div>
+                    <button onclick="clearDisplay()" class="button">AC</button>
+                </div>
+                <!--Botón de potenciación-->
+                <div>
+                    <button onclick="chooseOperation('^')" class="button operator">^</button>
+                </div>
+                <!--Botón de raíz cuadrada-->
+                <div>
+                    <button onclick="chooseOperation('√')" class="button operator">√</button>
+                </div>
+                <!--Botón de porcentaje-->
+                <div>
+                    <button onclick="chooseOperation('%')" class="button operator">%</button>
+                </div>
+                <!--Botón de división-->
+                <div>
+                    <button onclick="chooseOperation('/')" class="button operator">/</button>
+                </div>
+                <!--Botones numéricos y de operaciones-->
+                <div>
+                    <button onclick="appendNumber(7)" class="button">7</button>
+                </div>
+                <!--Botón de numero 8-->
+                <div>
+                    <button onclick="appendNumber(8)" class="button">8</button>
+                </div>
+                <!--Botón de numero 9-->
+                <div>
+                    <button onclick="appendNumber(9)" class="button">9</button>
+                </div>
+                <!--Botón de multiplicación-->
+                <div>
+                    <button onclick="chooseOperation('*')" class="button operator">*</button>
+                </div>
+                <!--Botón de numero 4-->
+                <div>
+                    <button onclick="appendNumber(4)" class="button">4</button>
+                </div>
+                <!--Botón de numero 5-->
+                <div>
+                    <button onclick="appendNumber(5)" class="button">5</button>
+                </div>
+                <!--Botón de numero 6-->
+                <div>
+                    <button onclick="appendNumber(6)" class="button">6</button>
+                </div>
+                <!--Botón de resta-->
+                <div>
+                    <button onclick="chooseOperation('-')" class="button operator">-</button>
+                </div>
+                <!--Botón de numero 1-->
+                <div>
+                    <button onclick="appendNumber(1)" class="button">1</button>
+                </div>
+                <!--Botón de numero 2-->
+                <div>
+                    <button onclick="appendNumber(2)" class="button">2</button>
+                </div>
+                <!--Botón de numero 3-->
+                <div>
+                    <button onclick="appendNumber(3)" class="button">3</button>
+                </div>
+                <!--Botón de suma-->
+                <div>
+                    <button onclick="chooseOperation('+')" class="button operator">+</button>
+                </div>
+                <!--Botón de numero 0-->
+                <div>
+                    <button onclick="appendNumber(0)" class="button">0</button>
+                </div>
+                <!--Botón de punto decimal-->
+                <div>
+                    <button onclick="appendNumber('.')" class="button">.</button>
+                </div>
+                <!--Botón de igual-->
+                <div>
+                    <button onclick="compute()" class="button operator">=</button>
+                </div>
             </div>
         </div>
         <footer class="footer mt-4">
